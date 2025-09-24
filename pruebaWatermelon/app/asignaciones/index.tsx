@@ -6,7 +6,7 @@ export default function PantallaInicio() {
     return (
         <View style={styles.container}>
             <Text>Pantalla principal</Text>
-            <Link href="/cuentas">Ir a Cuentas</Link>
+            <Link href="/asignaciones/nuevaAsignacion">Nueva pantalla para asignaciones</Link>
 
             
             <StatusBar style="auto" />
